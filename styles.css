@@ -1,0 +1,59 @@
+body {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    font-family: 'Arial', sans-serif;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+}
+
+.card-header {
+    border-radius: 15px 15px 0 0;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+    border-radius: 25px;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, #5a6fd8 0%, #6a4190 100%);
+}
+
+.form-control {
+    border-radius: 10px;
+}
+
+.dashboard {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+}
+
+.sidebar {
+    background-color: #343a40;
+    color: white;
+    min-height: 100vh;
+}
+
+.sidebar .nav-link {
+    color: #adb5bd;
+}
+
+.sidebar .nav-link:hover {
+    color: white;
+}
+
+.content {
+    padding: 20px;
+}
+
+.table-responsive {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.btn-sm {
+    border-radius: 20px;
+}
