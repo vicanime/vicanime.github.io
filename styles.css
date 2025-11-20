@@ -1,25 +1,28 @@
 body {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #0c2010 0%, #139b70 100%);
     font-family: 'Arial', sans-serif;
 }
 
 .card {
     border: none;
     border-radius: 15px;
+    min-height: 500px;
 }
 
 .card-header {
     border-radius: 15px 15px 0 0;
+    background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+    color: white;
 }
 
 .btn-primary {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
     border: none;
     border-radius: 25px;
 }
 
 .btn-primary:hover {
-    background: linear-gradient(135deg, #5a6fd8 0%, #6a4190 100%);
+    background: linear-gradient(135deg, #218838 0%, #2f4144 100%);
 }
 
 .form-control {
@@ -27,22 +30,23 @@ body {
 }
 
 .dashboard {
-    background-color: #f8f9fa;
+    background-color: white;
     min-height: 100vh;
 }
 
 .sidebar {
-    background-color: #343a40;
+    background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
     color: white;
     min-height: 100vh;
 }
 
 .sidebar .nav-link {
-    color: #adb5bd;
+    color: white;
+    transition: color 0.3s ease;
 }
 
 .sidebar .nav-link:hover {
-    color: white;
+    color: #ffff00;
 }
 
 .content {
@@ -56,4 +60,28 @@ body {
 
 .btn-sm {
     border-radius: 20px;
+}
+
+.university-header {
+    text-align: center;
+    font-family: 'Georgia', serif;
+    color: white;
+    background: url('image/Mountain_Province_State_Polytechnic_College_Halsema_Highway_Bontoc_Mountain_Province_12-03-2022-1-1536x1152-1.jpg') center/cover no-repeat;
+    padding: 20px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+.university-header h5 {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.university-header p {
+    font-size: 1.1em;
+}
+
+.login-university-header {
+    color: yellow !important;
 }
